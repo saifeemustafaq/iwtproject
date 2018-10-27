@@ -16,21 +16,21 @@
 					<td align="left">
 					&emsp;&emsp;&emsp;&emsp;Customer Name
 					</td>
-					<td align="left",><br>&emsp;&emsp;&emsp;&emsp;<input type="text" name="cname" size="35"><br><br>
+					<td align="left",><br>&emsp;&emsp;&emsp;&emsp;<input type="text" name="cname" placeholder="eg. Mustafa Saifee" size="35"><br><br>
 					</td>
 				</tr>
 				<tr>
 					<td align="left">
 						&emsp;&emsp;&emsp;&emsp;Customer Number
 					</td>
-					<td align="left"><br>&emsp;&emsp;&emsp;&emsp;<input type="text" name="cnum" size="35"><br><br>
+					<td align="left"><br>&emsp;&emsp;&emsp;&emsp;<input type="text" name="cnum" placeholder="eg. 9876543210" size="35"><br><br>
 					</td>
 				</tr>
 				<tr>
 					<td align="left">
 						&emsp;&emsp;&emsp;&emsp;Customer Email
 					</td>
-					<td align="left"><br>&emsp;&emsp;&emsp;&emsp;<input type="email" name="email" size="35"><br><br>
+					<td align="left"><br>&emsp;&emsp;&emsp;&emsp;<input type="email" name="email" placeholder="eg. mustafa@gmail.com" size="35"><br><br>
 					</td>
 				</tr>
 				<tr>
@@ -47,7 +47,7 @@
 					<td align="left">
 						&emsp;&emsp;&emsp;&emsp;Product name and quantity</td>
 					<td align="left"><br>&emsp;&emsp;&emsp;&emsp;
-						<textarea name="pname" rows="5" cols="24" style="font-size: 15px"></textarea>
+						<textarea name="pname" rows="5" cols="24" style="font-size: 15px" placeholder="Ceiling Fan x 5		Table Fan x 5		LED Tubelight x 3"></textarea>
 						<br><br>
 					</td>
 				</tr>
@@ -68,4 +68,3 @@
 		</form>
 	</div>
 </body>
-</html>
