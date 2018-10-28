@@ -22,7 +22,7 @@
 </head>
 <body>
 	<div>
-		<form method="POST" action="queryconn.php" autocomplete="on">
+		<form method="POST" action="queryconn.php">
 			
 			<table style="font-size: 30px">
 				<tr>

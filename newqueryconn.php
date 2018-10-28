@@ -1,11 +1,11 @@
 <?php
 
-	$conn2 = mysqli_connect("localhost", "mustafa","mustafa", "queryform");
+	$conn3 = mysqli_connect("localhost", "mustafa","mustafa", "queryform");
 
-	if(!$conn2)
+	if(!$conn3)
     	echo"Error Connecting to Database!";
 	else
-    	die(mysql_error());
+    	echo"Connected to Database!";
 ?>
 
 <?php
@@ -16,8 +16,8 @@
 	$pname = $_POST['pname'];
 	$pdetails = $_POST['pdetails'];
 
-	$que = "INSERT INTO querytab VALUES ('$cname','$cnum','$email','$pref','$pname','$pdetails')";
-	$data = mysqli_query($conn2,$que);
+	$que = "INSERT INTO newquerysql VALUES ('$cname','$cnum','$email','$pref','$pname','$pdetails')";
+	$data = mysqli_query($conn3,$que);
 	if($data)
 	{
 		echo "Data Received";

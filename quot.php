@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" 
-	type="image/png" 
-	href="iwt.png">
+	<link rel="icon" type="image/png" href="images/iwt.png">
 	<link rel="stylesheet" type="text/css" href="CSS/quotstyle.css">
 	<title>Quotation</title>
 	<h1 align="center">Request Quotation</h1>
@@ -38,9 +36,9 @@
 						&emsp;&emsp;&emsp;&emsp;Communication Preference<br>
 					</td>
 					<td align="left"><br>
-							&emsp;&emsp;&emsp;&emsp;<input type="radio" name="pref" value="call">Call
-							<input type="radio" name="pref" value="text">Text
-							<input type="radio" name="pref" value="email">Email<br><br>
+							&emsp;&emsp;&emsp;&emsp;<input type="radio" name="pref" value="call" required>Call
+							<input type="radio" name="pref" value="text" required >Text
+							<input type="radio" name="pref" value="email" required ><EM></EM>ail<br><br>
 					</td>
 				</tr>
 				<tr>
